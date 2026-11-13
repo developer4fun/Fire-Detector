@@ -1,0 +1,5 @@
+pip uninstall torch torchvision torchaudio -y
+uv pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu124
+uv pip install ultralytics opencv-python numpy
+
+// python main.py --camera 1 --device cpu
